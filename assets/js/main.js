@@ -16,4 +16,16 @@ Tools
     - Output in human price (0.01 €) = Math.round(number*100)/100
 */
 
-alert ('prova prova')
+//Chiedo all'utente km da percorrere e trasformo in numero
+
+//Chiedo all'utente l'età del passeggero e trasformo in numero
+
+//Calcolo il prezzo del biglietto senza esenzioni 
+
+//Salvo in console
+
+//Aggiungo if/else per esenzioni 
+
+//Salvo in console
+
+//Stampo output
