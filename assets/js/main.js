@@ -34,15 +34,16 @@ console.log(
 
 //Aggiungo if/else if/if per esenzioni 
 if (passengerAge < 18) {
-    var total_1 = fullPrice - (fullPrice * 0.20)
-    total_1 = total_1.toFixed(2)
+    var total_1 = fullPrice - (fullPrice * 0.20);
+    total_1 = total_1.toFixed(2);
     console.log(total_1);   
+    document.getElementById("price").innerHTML = total_1;
 } else if (passengerAge > 65) {
-    var total_2 = fullPrice - (fullPrice * 0.40)
-    total_2 = total_2.toFixed(2)
+    var total_2 = fullPrice - (fullPrice * 0.40);
+    total_2 = total_2.toFixed(2);
     console.log(total_2); 
+    document.getElementById("price").innerHTML = total_2;
 } else {
     console.log(fullPrice);
+    document.getElementById("price").innerHTML = fullPrice;
 }
-
-//Stampo output
