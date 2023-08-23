@@ -10,19 +10,27 @@ Tools
     - prompt for km
     - prompt for age
     - add Number
-    - log
     - Multiply 0.21 * inserted km 
+    - log
     - Conditionals by age (if age < 18 then -20%; if age > 65 then -40%; if age 18<x<65 then full price)
     - Output in human price (0.01 €) = Math.round(number*100)/100
 */
 
 //Chiedo all'utente km da percorrere e trasformo in numero
+const kmToRun = Number(prompt('Insert the travel distance in km'));
 
 //Chiedo all'utente l'età del passeggero e trasformo in numero
+const passengerAge = Number(prompt("Insert the passenger's age"));
 
 //Calcolo il prezzo del biglietto senza esenzioni 
+let fullPrice = 0.21 * kmToRun;
 
 //Salvo in console
+console.log(
+    `
+    ${kmToRun} ${passengerAge} ${fullPrice}
+    `
+);
 
 //Aggiungo if/else per esenzioni 
 
