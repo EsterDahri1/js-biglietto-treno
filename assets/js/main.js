@@ -32,7 +32,7 @@ console.log(
     `
 );
 
-//Aggiungo if/else if/if per esenzioni 
+//Aggiungo if/else if/if per esenzioni, log e stampo output su pagina 
 if (passengerAge < 18) {
     var total_1 = fullPrice - (fullPrice * 0.20);
     total_1 = total_1.toFixed(2);
