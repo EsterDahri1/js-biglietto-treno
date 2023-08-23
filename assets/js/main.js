@@ -13,7 +13,7 @@ Tools
     - Multiply 0.21 * inserted km 
     - log
     - Conditionals by age (if age < 18 then -20%; if age > 65 then -40%; if age 18<x<65 then full price)
-    - Output in human price (0.01 €) = Math.round(number*100)/100
+    - Output in human price (0.01 €)
 */
 
 //Chiedo all'utente km da percorrere e trasformo in numero
@@ -32,8 +32,17 @@ console.log(
     `
 );
 
-//Aggiungo if/else per esenzioni 
-
-//Salvo in console
+//Aggiungo if/else if/if per esenzioni 
+if (passengerAge < 18) {
+    var total_1 = fullPrice - (fullPrice * 0.20)
+    total_1 = total_1.toFixed(2)
+    console.log(total_1);   
+} else if (passengerAge > 65) {
+    var total_2 = fullPrice - (fullPrice * 0.40)
+    total_2 = total_2.toFixed(2)
+    console.log(total_2); 
+} else {
+    console.log(fullPrice);
+}
 
 //Stampo output
