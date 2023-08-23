@@ -5,3 +5,15 @@ va applicato uno sconto del 20% per i minorenni
 va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va stampato in forma umana (ovvero con massimo due decimali, per indicare i centesimi sul prezzo).*/
 
+/* 
+Tools 
+    - prompt for km
+    - prompt for age
+    - add Number
+    - log
+    - Multiply 0.21 * inserted km 
+    - Conditionals by age (if age < 18 then -20%; if age > 65 then -40%; if age 18<x<65 then full price)
+    - Output in human price (0.01 €) = Math.round(number*100)/100
+*/
+
+alert ('prova prova')
